@@ -21,6 +21,7 @@ function main(){
     const unAlbum = new Album("album de Santi", [])
     const unaBanda = new Banda(["santi"], [unAlbum, unAlbum, unAlbum]);
     console.log(unaBanda.members);
+    console.log("otro cambio");
     console.log(unaBanda.albums)
 
 }
